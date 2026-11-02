@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-08-11T15:28:00.020814+00:00",
+  "rdkit_version": "2024.03.5",
+  "development_input": "<LOCAL_HOME>/projects/egfr_source_holdout/data/pipeline_to_aggregation/03_aggregated/development/development_non_bindingdb__aggregated_modeling.csv",
+  "external_input": "<LOCAL_HOME>/projects/egfr_source_holdout/data/pipeline_to_aggregation/03_aggregated/external/external_bindingdb__aggregated_modeling.csv",
+  "compound_overlap_policy": "Remove every external row when its InChIKey_STD occurs anywhere in development, regardless of mutation context.",
+  "ad_definition": "Inside AD when external maximum Morgan Tanimoto similarity to development is >= the 5th percentile of development leave-one-compound-out nearest-neighbor similarities.",
+  "summary": {
+    "development_rows": 5093,
+    "development_unique_compounds": 4542,
+    "external_rows_before_overlap_removal": 2578,
+    "external_unique_compounds_before_overlap_removal": 2578,
+    "overlapping_compounds_removed": 54,
+    "external_rows_removed_for_compound_overlap": 54,
+    "exact_compound_mutation_context_overlaps": 53,
+    "strict_external_rows": 2524,
+    "strict_external_unique_compounds": 2524,
+    "morgan_radius": 2,
+    "morgan_bits": 2048,
+    "ad_threshold_percentile": 5.0,
+    "ad_threshold": 0.5,
+    "external_median_max_tanimoto": 0.4300537634408602,
+    "inside_ad_unique_compounds": 911,
+    "outside_ad_unique_compounds": 1613,
+    "inside_ad_compound_coverage_percent": 36.093502377179085,
+    "strict_external_active_rows": 1645,
+    "strict_external_inactive_rows": 879
+  },
+  "outputs": {
+    "strict_external": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_strict_no_compound_overlap.csv",
+    "strict_external_ad": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_strict_with_ad.csv",
+    "inside_ad": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_strict_inside_ad.csv",
+    "outside_ad": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_strict_outside_ad.csv",
+    "overlap_rows": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_rows_removed_compound_overlap.csv",
+    "overlap_compounds": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/overlapping_compounds.csv",
+    "exact_context": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/exact_context_overlap_comparison.csv",
+    "development_ad": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/development_loo_nearest_neighbors.csv",
+    "external_compound_ad": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_compound_ad_annotations.csv",
+    "coverage": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/external_ad_coverage_by_threshold.csv",
+    "summary_csv": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/holdout_ad_summary.csv",
+    "summary_json": "<LOCAL_HOME>/projects/egfr_source_holdout/results/strict_external_holdout_ad/holdout_ad_manifest.json"
+  }
+}

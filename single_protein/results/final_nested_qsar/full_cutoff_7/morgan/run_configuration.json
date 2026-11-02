@@ -1,0 +1,48 @@
+{
+  "development": "<LOCAL_HOME>/projects/egfr_source_holdout/modeling_files/full_cutoff_7/development/3_rdkit_morgan_fingerprints_with_metadata.csv",
+  "external": "<LOCAL_HOME>/projects/egfr_source_holdout/modeling_files/full_cutoff_7/strict_external/3_rdkit_morgan_fingerprints_with_metadata.csv",
+  "output_dir": "<LOCAL_HOME>/projects/egfr_source_holdout/results/final_nested_qsar/full_cutoff_7/morgan",
+  "representation": "morgan",
+  "analysis_name": "primary_full_cutoff_7_nested",
+  "core_script": "<LOCAL_HOME>/projects/egfr_source_holdout/scripts/10_train_grouped_cv_and_external_validation.py",
+  "budgets": [
+    50,
+    100,
+    200,
+    300,
+    500
+  ],
+  "models": [
+    "logistic",
+    "svm_rbf",
+    "random_forest",
+    "extra_trees",
+    "lightgbm",
+    "xgboost",
+    "knn"
+  ],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "search_iterations": 12,
+  "missing_threshold": 0.3,
+  "correlation_threshold": 0.9,
+  "fdr_alpha": 0.05,
+  "threshold": 0.5,
+  "ad_column": "Inside_AD",
+  "bootstrap": 1000,
+  "random_state": 42,
+  "n_jobs": -1,
+  "dpi": 300,
+  "resume": true,
+  "winner_model": "extra_trees",
+  "winner_budget": 300,
+  "final_hyperparameters": {
+    "bootstrap": false,
+    "class_weight": "balanced",
+    "max_depth": 16,
+    "max_features": 0.5,
+    "min_samples_leaf": 3,
+    "min_samples_split": 8,
+    "n_estimators": 300
+  }
+}

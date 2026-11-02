@@ -1,0 +1,2 @@
+budget,model,params,inner_mean_mcc,inner_sd_mcc
+200,extra_trees,"{""bootstrap"": false, ""class_weight"": ""balanced"", ""max_depth"": 16, ""max_features"": 0.5, ""min_samples_leaf"": 2, ""min_samples_split"": 4, ""n_estimators"": 500}",0.6490283565599049,0.023612061588505415

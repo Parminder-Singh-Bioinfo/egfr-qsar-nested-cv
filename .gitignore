@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files and logs
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Local reconstructed datasets and training outputs
+EGFR_QSAR_RECONSTRUCTED/
+EGFR_QSAR_FRESH_RUNS/
+EGFR_QSAR_COMPARISON_CHECK/
+
+# Large frozen data archive: deposited separately
+EGFR_QSAR_FROZEN_DATA.zip
+
+# Jupyter temporary files
+.ipynb_checkpoints/

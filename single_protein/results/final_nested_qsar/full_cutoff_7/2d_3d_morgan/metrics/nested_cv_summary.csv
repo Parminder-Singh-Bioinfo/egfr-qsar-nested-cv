@@ -1,0 +1,2 @@
+representation,outer_folds,mean_outer_mcc,sd_outer_mcc,mean_outer_balanced_accuracy,mean_outer_roc_auc,mean_outer_pr_auc,mean_outer_f1,mean_train_mcc,mean_train_outer_gap
+2d_3d_morgan,5,0.6490979684883313,0.02399087053736513,0.8241507798192351,0.9023913292522462,0.90435429655187,0.8273592489002372,0.9938189288970193,0.3447209604086881

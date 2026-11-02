@@ -1,0 +1,2 @@
+representation,outer_folds,mean_outer_mcc,sd_outer_mcc,mean_outer_balanced_accuracy,mean_outer_roc_auc,mean_outer_pr_auc,mean_outer_f1,mean_train_mcc,mean_train_outer_gap
+2d,5,0.6359174765033461,0.025145429659942986,0.8176678454602848,0.890765916493865,0.8912387325653555,0.8213304302347734,0.9649830511232149,0.3290655746198687

@@ -1,0 +1,6 @@
+budget,model,params,inner_mean_mcc,inner_sd_mcc,representation
+300,svm_rbf,"{""C"": 3.162277660168379, ""class_weight"": ""balanced"", ""gamma"": 0.0068129206905796075}",0.6470600941312697,0.0172116979509987,2d
+300,svm_rbf,"{""C"": 3.162277660168379, ""class_weight"": ""balanced"", ""gamma"": 0.0068129206905796075}",0.5964785895309352,0.0221498706942108,3d
+300,extra_trees,"{""bootstrap"": false, ""class_weight"": ""balanced"", ""max_depth"": 16, ""max_features"": 0.5, ""min_samples_leaf"": 3, ""min_samples_split"": 8, ""n_estimators"": 300}",0.6568911688951037,0.0277574441931965,morgan
+500,svm_rbf,"{""C"": 3.162277660168379, ""class_weight"": ""balanced"", ""gamma"": 0.002154434690031882}",0.6417103387304153,0.0088636013007811,2d_3d
+200,extra_trees,"{""bootstrap"": false, ""class_weight"": ""balanced"", ""max_depth"": 16, ""max_features"": 0.5, ""min_samples_leaf"": 2, ""min_samples_split"": 4, ""n_estimators"": 500}",0.6564791534722392,0.0242679367088725,2d_3d_morgan
