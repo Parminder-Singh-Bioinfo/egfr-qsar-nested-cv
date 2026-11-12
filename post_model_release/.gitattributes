@@ -1,0 +1,3 @@
+
+# Preserve verified CSV bytes and accept CRLF line endings.
+*.csv -text whitespace=cr-at-eol
