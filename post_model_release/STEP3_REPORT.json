@@ -1,0 +1,20 @@
+{
+  "step": 3,
+  "analysis_executed": false,
+  "training_performed": false,
+  "frozen_archive_sha256": "7ca27c87166ef33ba1c5ee74f6136ea125474a96543bf31d753d921c38194fd4",
+  "existing_repository": "/home/pam/projects/EGFR_QSAR_PUBLICATION_RELEASE",
+  "adapted_staged_scripts": [
+    "post_model_analysis/ablation/run_mutation_ablation.py",
+    "post_model_analysis/shap/analyze_single_protein_integrated_shap.py",
+    "post_model_analysis/shap/analyze_cell_based_integrated_shap.py",
+    "post_model_analysis/shap/single_protein/scripts/14_shap_final_models.py",
+    "post_model_analysis/shap/cell_based/scripts/14_shap_final_models.py"
+  ],
+  "scope": "Inputs copied, verified frozen matrices extracted, staged paths adapted, Python syntax parsed. Runtime verification is Step 4.",
+  "limitations": [
+    "Existing frozen scaffold assignments are supplied; their generator is not added here.",
+    "Historical SHAP background IDs are not claimed recovered. Future SHAP runs will save sampled row indices.",
+    "COPY_MANIFEST.csv records Step 2 originals; STEP3_CODE_CHECKSUMS.csv records current adapted scripts."
+  ]
+}

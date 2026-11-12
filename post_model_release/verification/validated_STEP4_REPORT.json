@@ -1,0 +1,494 @@
+{
+  "all_passed": true,
+  "model_training_performed": false,
+  "shap_recalculated": false,
+  "output_directory": "/home/pam/projects/EGFR_REPOSITORY_ADDITIONS_STAGING/verification_runs/step4_20261112_124728_611023",
+  "checks": [
+    {
+      "check": "01_model_figures/command completed",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig2/Fig2_inner_cv.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig2/Fig2_inner_cv.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig2/Fig2_inner_cv.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig2/Fig2_inner_cv.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig3/Fig3_outer_cv.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig3/Fig3_outer_cv.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig3/Fig3_outer_cv.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig3/Fig3_outer_cv.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig4/Fig4_development_cv.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig4/Fig4_development_cv.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig4/Fig4_development_cv.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig4/Fig4_development_cv.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig5/Fig5_external_holdout.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig5/Fig5_external_holdout.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig5/Fig5_external_holdout.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/model_performance/Fig5/Fig5_external_holdout.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "Figure 3/AP axis and caption",
+      "passed": true
+    },
+    {
+      "check": "Figure 5/AP axis and caption",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/3D/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/Morgan FP/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D + 3D/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D + 3D + Morgan FP/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/3D/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/Morgan FP/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D + 3D/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D + 3D + Morgan FP/MCC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/3D/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/Morgan FP/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D + 3D/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D + 3D + Morgan FP/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/3D/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/Morgan FP/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D + 3D/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D + 3D + Morgan FP/PR_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/3D/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/Morgan FP/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D + 3D/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Single-protein/2D + 3D + Morgan FP/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/3D/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/Morgan FP/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D + 3D/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Outer CV summary/Cell-based/2D + 3D + Morgan FP/ROC_AUC",
+      "passed": true
+    },
+    {
+      "check": "Figure 5/saved estimates and intervals unchanged",
+      "passed": true
+    },
+    {
+      "check": "02_scaffold_analysis/command completed",
+      "passed": true
+    },
+    {
+      "check": "Scaffold/all_10_scaffold_performance.csv",
+      "passed": true
+    },
+    {
+      "check": "Scaffold/all_10_scaffold_ad_performance.csv",
+      "passed": true
+    },
+    {
+      "check": "Scaffold/all_10_scaffold_summary.csv",
+      "passed": true
+    },
+    {
+      "check": "Scaffold/original_scaffold_reproducibility_check.csv",
+      "passed": true
+    },
+    {
+      "check": "03_scaffold_figure/command completed",
+      "passed": true
+    },
+    {
+      "check": "figures/scaffold/FigC_scaffold_bars_heatmap.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/scaffold/FigC_scaffold_bars_heatmap.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/scaffold/FigC_scaffold_bars_heatmap.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/scaffold/FigC_scaffold_bars_heatmap.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "04_ablation_comparison/command completed",
+      "passed": true
+    },
+    {
+      "check": "Ablation/two models and six removed indicators",
+      "passed": true
+    },
+    {
+      "check": "Ablation/full-minus-ablated MCC arithmetic",
+      "passed": true
+    },
+    {
+      "check": "05_shap_single_protein/command completed",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Full_External/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Full_External/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Full_External/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Full_External/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Inside_AD/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Inside_AD/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Inside_AD/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Inside_AD/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Outside_AD/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Outside_AD/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Outside_AD/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Outside_AD/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Seen/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Seen/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Seen/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Seen/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Unseen/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Unseen/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Unseen/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/single_protein/Scaffold_Unseen/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "05_shap_cell_based/command completed",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Full_External/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Full_External/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Full_External/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Full_External/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Inside_AD/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Inside_AD/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Inside_AD/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Outside_AD/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Outside_AD/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Outside_AD/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Seen/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Seen/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Seen/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Unseen/TP_vs_FN_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Unseen/TP_vs_FN_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Unseen/TN_vs_FP_feature_comparison.csv/expected presence",
+      "passed": true
+    },
+    {
+      "check": "SHAP/cell_based/Scaffold_Unseen/TN_vs_FP_feature_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "06_shap_figures/command completed",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Single_protein_Morgan.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Single_protein_Morgan.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Single_protein_Morgan.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Single_protein_Morgan.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Cell_based_3D.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Cell_based_3D.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Cell_based_3D.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/shap/Fig_Cell_based_3D.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "07_morgan_verification/command completed",
+      "passed": true
+    },
+    {
+      "check": "Morgan/all independent checks passed",
+      "passed": true
+    },
+    {
+      "check": "08_morgan_figure/command completed",
+      "passed": true
+    },
+    {
+      "check": "figures/morgan/Fig_Morgan_chemical_interpretation.pdf/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/morgan/Fig_Morgan_chemical_interpretation.svg/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/morgan/Fig_Morgan_chemical_interpretation.png/nonempty",
+      "passed": true
+    },
+    {
+      "check": "figures/morgan/Fig_Morgan_chemical_interpretation.tiff/nonempty",
+      "passed": true
+    },
+    {
+      "check": "Staged inputs and sources unchanged after replay",
+      "passed": true
+    }
+  ],
+  "scope": "Saved-result runtime checks and plot rendering; no nested-CV retraining, ablation refitting or new SHAP explanations.",
+  "versions": {
+    "python": "3.8.10",
+    "numpy": "1.24.4",
+    "pandas": "2.0.3",
+    "matplotlib": "3.7.5",
+    "scikit_learn": "1.3.2",
+    "rdkit": "2024.03.5"
+  },
+  "visual_qa": "Rendered outputs still require visual inspection; numerical checks do not establish pixel identity."
+}
