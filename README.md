@@ -130,18 +130,17 @@ documented and independently verified.
 
 ## Data availability
 
-Frozen datasets and their checksums will be deposited in a
-research-data repository.
-
-Permanent data identifier: TO BE ADDED
+The frozen modeling datasets and post-model analysis results are
+associated with the reserved Zenodo DOI:
+[10.5281/zenodo.23886017](https://doi.org/10.5281/zenodo.23886017). 
 
 ## Citation
 
-Manuscript citation: TO BE ADDED
+Associated manuscript citation will be added upon publication.
 
 ## License
 
-TO BE FINALIZED
+The GitHub code license still needs to be selected and added as a LICENSE file. The dataset’s CC BY-SA 4.0 license does not automatically license the code.
 
 ## Complete dataset reconstruction
 
