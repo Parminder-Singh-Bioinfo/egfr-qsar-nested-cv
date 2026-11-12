@@ -131,8 +131,8 @@ documented and independently verified.
 ## Data availability
 
 The frozen modeling datasets and post-model analysis results are
-associated with the reserved Zenodo DOI:
-[10.5281/zenodo.23886017](https://doi.org/10.5281/zenodo.23886017). 
+available on Zenodo:
+[10.5281/zenodo.23886017](https://doi.org/10.5281/zenodo.23886017).
 
 ## Citation
 
