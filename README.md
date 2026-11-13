@@ -139,8 +139,11 @@ available on Zenodo:
 Associated manuscript citation will be added upon publication.
 
 ## License
+The software code is licensed under the [MIT License](LICENSE).
 
-The GitHub code license still needs to be selected and added as a LICENSE file. The dataset’s CC BY-SA 4.0 license does not automatically license the code.
+The Zenodo datasets and analysis results are licensed separately
+under CC BY-SA 4.0. ChEMBL source-data attribution and license
+notices remain applicable.
 
 ## Complete dataset reconstruction
 
